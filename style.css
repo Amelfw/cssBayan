@@ -39,7 +39,15 @@
     top: 50%;  
 }
 
-
+.mem1-input{
+    width: 0;
+    height: 0;
+    
+    -webkit-appearance: none;
+    appearance: none;
+    
+    position: absolute;
+}
 
 
 
