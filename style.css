@@ -1,4 +1,5 @@
-.body {
+.body 
+{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     line-height: 1.5;
@@ -11,14 +12,17 @@
 
 
 /*mem1*/
-.mem1 {
+.mem1 
+{
     max-width: 600px;
     margin:  20px auto;
 }
-.mem1-item {
+.mem1-item 
+{
     border-top: 1px solid #b91125
 }
-.mem1-title {
+.mem1-title 
+{
     display: block;
     padding: 10px 10px;
     color: #b91125;
@@ -28,10 +32,12 @@
 }
 
 
-.mem1-title:hover {
+.mem1-title:hover 
+{
     background-color: #e95f6f;
 }
-.mem1-title:after {
+.mem1-title:after 
+{
     content: '⇓';
     display: block;
     transform: translateY(-25%);
@@ -39,34 +45,29 @@
     top: 50%;  
 }
 
-.mem1-input{
+.mem1-input
+{
     width: 0;
     height: 0;
-    
-    -webkit-appearance: none;
     appearance: none;
-    
+    -webkit-appearance: none;
     position: absolute;
 }
-
-
-
-.mem1-input:checked + .mem1-text{
-    display: block;
-    
-}
-
 
 .mem1-input:checked ~ .mem1-title:after 
 {
     content: '_+_';
 }
 
-
 .mem1-text {
     display: none;
-
     text-align: center;
     font-size: 14px;
-
 }
+
+.mem1-input:checked + .mem1-text
+{
+    display: block;
+    
+}
+
