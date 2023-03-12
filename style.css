@@ -14,7 +14,6 @@
 .mem1 {
     max-width: 600px;
     margin:  20px auto;
-
 }
 .mem1-item {
     border-top: 1px solid #b91125
@@ -35,23 +34,12 @@
 .mem1-title:after {
     content: '⇓';
     display: block;
-    
     transform: translateY(-25%);
     text-align: right;
     top: 50%;  
-    
-
 }
 
-.mem1-input{
-    width: 0;
-    height: 0;
-    
-    -webkit-appearance: none;
-    appearance: none;
-    
-    position: absolute;
-}
+
 
 
 
